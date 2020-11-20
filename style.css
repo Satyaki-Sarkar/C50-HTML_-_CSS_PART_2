@@ -1,0 +1,29 @@
+    h1{
+        color:Blue;
+    }
+
+    .header{
+        background-color: aquamarine;
+        display : flex;
+        justify-content : space-between;
+    }
+
+    .grid{
+        display : flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .item{
+        align-self: flex-start;
+        order: 3;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    h2,p{
+        text-align: center;
+    }
